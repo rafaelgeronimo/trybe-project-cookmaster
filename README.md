@@ -7,8 +7,6 @@ Projeto desenvolvido no módulo de Desenvolvimento Back-end da Trybe, no bloco d
 
 Foi desenvolvido um app utilizando a arquitetura **MSC**, onde é possível fazer o cadastro e login de pessoas usuárias, onde apenas essas pessoas poderão acessar, modificar e deletar as receitas que foram cadastradas.
 
----
-
 # Habilidades desenvolvidas
 
 Com o desenvolvimento deste projeto, foram colocadas em prática as seguintes habilidades:
@@ -20,6 +18,54 @@ Com o desenvolvimento deste projeto, foram colocadas em prática as seguintes ha
 - Salvar arquivos no servidor através de uma API REST;
 - Consultar arquivos do servidor através de uma api REST.
 - Realizar testes de integração
+
+## 🚀 Demo
+API URL: https://rafaelgeronimo-cookmaster.herokuapp.com/
+Utilize o Insomnia, Postman ou outro de sua preferência para realizar as requisições na rotas pelos métodos disponíveis.
+
+Métodos e rotas:
+|Método|Rota|Descrição|
+|---|---|
+|`POST`|`/users`|Endpoint para cadastro de usuários|
+|`POST`|`/login`|Endpoint para login de usuário cadastrado|
+|`POST`|`/recipes`|Realiza o cadastro de uma nova receita|
+|`GET`|`/recipes`|Retorna todas as receitas cadastradas|
+|`GET`|`/recipes/:id`|Retorna dados de receita específica pelo seu ID|
+|`PUT`|`recipes/:id`|Permite editar uma receita já cadastrada|
+|`DELETE`|`recipes/:id`|Endpoint para excluir receita específica pelo seu ID|
+|`PUT`|`recipes/:id/image`|Endpoint para adicionar uma imagem a uma receita|
+|`GET`|`recipes/:id/*.jpeg`|Permite acessar a imagem de uma receita|
+
+## 🛠 Instalação
+- Realize o clone do projeto com o comando:
+```sh
+git clone git@github.com:rafaelgeronimo/trybe-project-cookmaster.git
+```
+- Instale o projeto com `npm` ou `yarn`:
+```sh
+cd trybe-project-cookmaster
+
+## npm
+npm install
+
+## yarn
+yarn install
+```
+- Configure as variáveis de ambiente:
+  - Para que essa api funcione corretamente no seu ambiente local, será necessário criar o arquivo `.env` na raíz do projeto, contendo os dados de acesso ao banco de dados `MongoDB`.
+  - Também é possível escolher a porta em que a aplicação irá rodar. Se não for configurada, o padrão será a porta 3000.
+```
+MONGO_DB_URL=mongodb://localhost:27017/Cookmaster
+PORT=3000
+```
+- Após a instalação das dependências e configuração das variáveis de ambiente, é possível executar com o comando para iniciar a API:
+```sh
+## npm
+npm start
+
+## yarn
+yarn start
+```
 
 ### Requisitos do projeto
 #### Requisitos obrigatórios
