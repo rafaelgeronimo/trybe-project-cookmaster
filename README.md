@@ -21,11 +21,13 @@ Com o desenvolvimento deste projeto, foram colocadas em prática as seguintes ha
 
 ## 🚀 Demo
 API URL: https://rafaelgeronimo-cookmaster.herokuapp.com/
+
 Utilize o Insomnia, Postman ou outro de sua preferência para realizar as requisições na rotas pelos métodos disponíveis.
 
 Métodos e rotas:
+
 |Método|Rota|Descrição|
-|---|---|
+|---|---|---|
 |`POST`|`/users`|Endpoint para cadastro de usuários|
 |`POST`|`/login`|Endpoint para login de usuário cadastrado|
 |`POST`|`/recipes`|Realiza o cadastro de uma nova receita|
