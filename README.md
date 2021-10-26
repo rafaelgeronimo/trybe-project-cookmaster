@@ -1,3 +1,6 @@
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![](https://socialify.git.ci/rafaelgeronimo/trybe-project-cookmaster/image?description=1&descriptionEditable=%5BTrybe%20Project%5D%20Cookmaster&font=Bitter&language=1&owner=1&pattern=Brick%20Wall&theme=Light)
+
 ## 📗 Sobre
 
 Projeto desenvolvido no módulo de Desenvolvimento Back-end da Trybe, no bloco de Autenticação e Upload de Arquivos, onde estudamos JWT (Json Web Token), Upload de arquivos com `multer` e testamos APIs com Testes de Integração.
